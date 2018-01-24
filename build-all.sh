@@ -1,11 +1,13 @@
 #!/bin/bash
 
+runmode=procs
+
 cd minigui
-./autogen.sh; ./configure --enable-develmode --with-runmode=sa
+./autogen.sh; ./configure --enable-develmode --with-runmode=$runmode
 make; sudo make install
 cd ..
 
-for comp in 'mgutils mgplus mgncs'; do
+for comp in mgutils mgplus mgncs mgeff mgncs4touch; do
     cd $comp
     ./autogen.sh; ./configure --enable-develmode
     make; sudo make install

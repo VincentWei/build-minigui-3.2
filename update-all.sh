@@ -1,8 +1,8 @@
 #!/bin/bash
 
-git_branch='64b'
+git_branch='master'
 
-for comp in minigui mgutils mgplus mgncs mgeff mgncs4touch; do
+for comp in qvfb minigui-res mg-samples minigui mgutils mgplus mgncs mgeff mgncs4touch; do
     echo Updating $comp from remote $git_branch
     cd $comp
     git pull origin $git_branch

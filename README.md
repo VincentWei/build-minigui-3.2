@@ -10,5 +10,5 @@ for the development of miniLinux apps.
 
 ## 2018-01-23
 
-Currently, this repo just includes some scripts to build MiniGUI 
+Currently, this repo just includes some scripts to build MiniGUI 3.2.x
 developmenet environment.

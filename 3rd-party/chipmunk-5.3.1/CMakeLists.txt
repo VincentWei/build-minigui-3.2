@@ -21,6 +21,12 @@ option(BUILD_STATIC "Build as static library" ON)
 option(INSTALL_STATIC "Install the static library" ON)
 option(BUILD_RUBY_EXT "Build and install the Ruby extension" OFF)
 
+set (prefix ${CMAKE_INSTALL_PREFIX})
+set (exec_prefix "${prefix}")
+set (libdir "${exec_prefix}/lib")
+set (includedir "${prefix}/include")
+configure_file("${PROJECT_SOURCE_DIR}/chipmunk.pc.in" "${PROJECT_BINARY_DIR}/chipmunk.pc")
+
 # sanity checks...
 if(INSTALL_DEMOS)
   set(BUILD_DEMOS ON FORCE)
@@ -51,3 +57,6 @@ endif(BUILD_DEMOS)
 if(BUILD_RUBY_EXT)
   add_subdirectory(ruby)
 endif(BUILD_RUBY_EXT)
+
+#pkgconfig
+install (FILES "${PROJECT_BINARY_DIR}/chipmunk.pc" DESTINATION lib/pkgconfig)

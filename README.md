@@ -45,26 +45,26 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
 
 3. Make and install `chipmunk` library:
 
-    $ cd 3rd-party/chipmunk-5.3.1
-    $ cmake .
-    $ make; sudo make install
-    $ cd ../..
+        $ cd 3rd-party/chipmunk-5.3.1
+        $ cmake .
+        $ make; sudo make install
+        $ cd ../..
 
 4. Install MiniGUI resources:
 
-    $ cd minigui-res
-    $ ./configure
-    $ sudo make install
-    $ cd ..
+        $ cd minigui-res
+        $ ./configure
+        $ sudo make install
+        $ cd ..
 
 5. Run `build-all.sh` to build all:
 
-    $ ./build-all.sh
+        $ ./build-all.sh
 
 6. Run `mguxdemo`:
 
-    $ cd /usr/local/bin
-    $ ./mguxdemo
+        $ cd /usr/local/bin
+        $ ./mguxdemo
 
 When there were some updates in the remote repos, you can run `update-all.sh` to
 update them. You can run `clean-build-all.sh` to uninstall, clean, 

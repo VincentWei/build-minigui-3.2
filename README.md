@@ -30,7 +30,7 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
     * libsqlite3-dev
     * libxml2-dev
 
-### Building steps
+### Steps
 
 1. Run `fetch-all.sh` to fetch all source from GitHub:
 

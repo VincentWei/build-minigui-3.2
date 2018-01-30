@@ -84,3 +84,30 @@ Add `chipmunk-5.3.1` in `3rd-party/`.
 
 Currently, this repo just includes some scripts to build MiniGUI 3.2.x
 core, components, and demonstration apps.
+
+## Copying
+
+    Copyright (C) 2018, Beijing FMSoft Technologies Co., Ltd.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+## Notes
+
+Note that the software in `3rd-party/` may use different licenses. 
+Please refer to the LICENSE or COPYRING files in the source trees for more 
+information.
+
+Note that the software fetched from remote repositories may use different
+licenses.  Please refer to the LICEENSE or COPYING files in the sorce trees
+for more information.
+

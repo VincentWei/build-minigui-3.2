@@ -34,15 +34,14 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
 
 1. Run `fetch-all.sh` to fetch all source from GitHub:
 
-
-    $ ./fetch-all.sh
+        $ ./fetch-all.sh
 
 2. Make and install `gvfb`:
 
-    $ cd gvfb
-    $ cmake .
-    $ make; sudo make install
-    $ cd ..
+        $ cd gvfb
+        $ cmake .
+        $ make; sudo make install
+        $ cd ..
 
 3. Make and install `chipmunk` library:
 

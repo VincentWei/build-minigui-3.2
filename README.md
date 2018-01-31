@@ -43,7 +43,8 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
         $ make; sudo make install
         $ cd ..
 
-3. Make and install `chipmunk` library:
+3. Make and install `chipmunk` library (DO NOT use the chipmunk-dev package
+   which is provided by Ubuntu):
 
         $ cd 3rd-party/chipmunk-5.3.1
         $ cmake .

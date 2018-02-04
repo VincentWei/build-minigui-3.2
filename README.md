@@ -106,10 +106,10 @@ core, components, and demonstration apps.
 ## Notes
 
 Note that the software in `3rd-party/` may use different licenses. 
-Please refer to the LICENSE or COPYRING files in the source trees for more 
+Please refer to the `LICENSE` or `COPYING` files in the source trees for more 
 information.
 
 Note that the software fetched from remote repositories may use different
-licenses.  Please refer to the LICENSE or COPYING files in the sorce trees
+licenses.  Please refer to the `LICENSE` or `COPYING` files in the sorce trees
 for more information.
 

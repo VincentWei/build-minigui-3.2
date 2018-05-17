@@ -7,7 +7,7 @@ cd minigui
 make; sudo make install
 cd ..
 
-for comp in mg-samples mgutils mgplus mgeff mgncs mgncs4touch cell-phone-ux-demo; do
+for comp in mgutils mgplus mgeff mgncs mg-samples mgncs4touch cell-phone-ux-demo; do
     cd $comp
     ./autogen.sh; ./configure --enable-develmode
     make; sudo make install

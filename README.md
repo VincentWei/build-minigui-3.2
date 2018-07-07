@@ -29,6 +29,8 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
 
 ### Steps
 
+Please make sure that you can visit GitHub via SSH and you can do `sudo` on your Linux box.
+
 1. Run `fetch-all.sh` to fetch all source from GitHub:
 
         $ ./fetch-all.sh

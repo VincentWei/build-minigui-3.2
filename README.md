@@ -1,11 +1,6 @@
-# miniLinux
+# Build MiniGUI 3.2
 
-miniLinux is a Linux distribution for embedded systems and smart IoT devices, 
-and it uses MiniGUI (the MiniGUI core and the components) as the graphics and
-window system.
-
-We plan to provide a Python-based runtime framework and a set of APIs 
-for the development of miniLinux apps.
+This repo contains some scripts and dependencies to build MiniGUI 3.2.x
 
 ## Building
 
@@ -22,6 +17,7 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
     * autoconf/automake
     * libtool
     * make
+    * cmake
  * Dependent libraries:
     * libgtk2.0-dev
     * libjpeg64-dev
@@ -54,6 +50,7 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
 4. Install MiniGUI resources:
 
         $ cd minigui-res
+        $ ./augen.sh
         $ ./configure
         $ sudo make install
         $ cd ..
@@ -72,6 +69,10 @@ update them. You can run `clean-build-all.sh` to uninstall, clean,
 and re-install them.
 
 ## ChangeLog
+
+### 2018-07-07
+
+Fix some bugs.
 
 ### 2018-01-30
 

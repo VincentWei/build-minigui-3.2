@@ -1,11 +1,7 @@
-# miniLinux
+# About
 
-miniLinux is a Linux distribution for embedded systems and smart IoT devices, 
-and it uses MiniGUI (the MiniGUI core and the components) as the graphics and
-window system.
-
-We plan to provide a Python-based runtime framework and a set of APIs 
-for the development of miniLinux apps.
+This repo includes some scripts to build MiniGUI 3.2 and 
+mGUXDemo (https://github.com/VincentWei/cell-phone-ux-demo)
 
 ## Building
 
@@ -72,6 +68,10 @@ update them. You can run `clean-build-all.sh` to uninstall, clean,
 and re-install them.
 
 ## ChangeLog
+
+### 2018-07-06
+
+Change repo name to `scripts-build-minigui-all`
 
 ### 2018-01-30
 

@@ -1,7 +1,6 @@
-# About
+# Build MiniGUI 3.2
 
-This repo includes some scripts to build MiniGUI 3.2 and 
-mGUXDemo (https://github.com/VincentWei/cell-phone-ux-demo)
+This repo contains some scripts and dependencies to build MiniGUI 3.2.x
 
 ## Building
 
@@ -18,15 +17,19 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
     * autoconf/automake
     * libtool
     * make
+    * cmake
+    * pkg-config
  * Dependent libraries:
     * libgtk2.0-dev
-    * libjpeg64-dev
+    * libjpeg-dev
     * libpng12-dev
     * libfreetype6-dev
     * libsqlite3-dev
     * libxml2-dev
 
 ### Steps
+
+Please make sure that you can visit GitHub via SSH and you can do `sudo` on your Linux box.
 
 1. Run `fetch-all.sh` to fetch all source from GitHub:
 
@@ -50,6 +53,7 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
 4. Install MiniGUI resources:
 
         $ cd minigui-res
+        $ ./augen.sh
         $ ./configure
         $ sudo make install
         $ cd ..
@@ -67,7 +71,14 @@ When there were some updates in the remote repos, you can run `update-all.sh` to
 update them. You can run `clean-build-all.sh` to uninstall, clean, 
 and re-install them.
 
+Note that you might need to run `ldconfig` to refresh the shared libraries cache
+when running `mguxdemo`.
+
 ## ChangeLog
+
+### 2018-07-07
+
+Fix some bugs.
 
 ### 2018-07-06
 

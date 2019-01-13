@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git_branch='rel-3-2'
+git_branch='dev-3-4'
 
 cd gvfb
 git pull origin master
@@ -10,5 +10,6 @@ for comp in minigui-res mg-samples minigui mgutils mgplus mgeff mgncs mgncs4touc
     echo Updating $comp from remote $git_branch
     cd $comp
     git pull origin $git_branch
+    git checkout dev-3-4
     cd ..
 done

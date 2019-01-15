@@ -2,14 +2,9 @@
 
 git_branch='dev-3-4'
 
-cd gvfb
-git pull origin master
-cd ..
-
 for comp in minigui-res mg-samples minigui mgutils mgplus mgeff mgncs mgncs4touch cell-phone-ux-demo; do
-    echo Updating $comp from remote $git_branch
+    echo Switching $comp to branch $git_branch
     cd $comp
-    git pull origin $git_branch
     git checkout $git_branch
     cd ..
 done

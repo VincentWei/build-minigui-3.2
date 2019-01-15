@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git_branch='dev-3-4'
+git_branch='rel-3-2'
 
 cd gvfb
 git pull origin master

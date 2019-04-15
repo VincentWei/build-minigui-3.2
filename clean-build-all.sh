@@ -17,7 +17,7 @@ for comp in mgncs4touch mgncs mgeff mgplus mgutils; do
 done
 
 echo MAKE AND INSTALL NOW...
-for comp in mgutils mgplus mgeff mgncs mgncs4touch mg-samples cell-phone-ux-demo; do
+for comp in mgutils mgplus mgeff mgncs mgncs4touch mg-samples mg-tools cell-phone-ux-demo; do
     cd $comp
     make; sudo make install
     cd ..

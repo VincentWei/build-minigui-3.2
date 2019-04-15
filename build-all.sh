@@ -8,7 +8,7 @@ cd minigui
 make -j$nr_jobs; sudo make install
 cd ..
 
-for comp in mgutils mgplus mgeff mgncs mg-samples mgncs4touch cell-phone-ux-demo; do
+for comp in mgutils mgplus mgeff mgncs mg-samples mgncs4touch mg-tools cell-phone-ux-demo; do
     cd $comp
     ./autogen.sh; ./configure --enable-develmode
     make -j$nr_jobs; sudo make install

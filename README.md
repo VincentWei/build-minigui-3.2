@@ -26,6 +26,7 @@ You can run `apt install <package_name>` to install the software on Ubuntu Linux
     * libfreetype6-dev
     * libsqlite3-dev
     * libxml2-dev
+    * libssl-dev
 
 ### Steps
 

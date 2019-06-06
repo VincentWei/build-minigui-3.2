@@ -77,6 +77,10 @@ when running `mguxdemo`.
 
 ## ChangeLog
 
+### 2019-06-06
+
+Introduce config.sh and mg-demos.
+
 ### 2018-07-07
 
 Fix some bugs.

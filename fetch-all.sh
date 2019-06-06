@@ -6,7 +6,7 @@ fi
 
 source myconfig.sh
 
-for comp in minigui-res minigui mg-samples mgutils mgplus mgeff mgncs mgncs4touch mg-demos cell-phone-ux-demo; do
+for comp in minigui-res minigui mg-samples mgutils mgplus mgeff mgncs mgncs4touch cell-phone-ux-demo; do
     git clone $REPO_URL/$comp.git -b rel-3-2
 done
 
